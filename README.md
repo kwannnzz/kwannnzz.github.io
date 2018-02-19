@@ -1,7 +1,3 @@
-# ♥ Junie ♥
-
-**All about Junie :)**
-
 ## About Junie <(")
 
 - _Full Name: Cấn Hoàng Anh Quân_
