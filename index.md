@@ -1,13 +1,13 @@
 ## [](#info-and-contact-)Info and Contact <(")
 
-- _Full Name: Cấn Hoàng Anh Quân_
-- _Date of birth: 07-09-xxxx_
-- _Address: Dalat City, Vietnam_
-- _Facebook: [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
-- _Twitter: [Cấn Hoàng Anh Quân](https://twitter.com/anhquancanhoang)_
-- _Instagram: [junie.79](https://www.instagram.com/junie.79/)_
-- _Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
-- _Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
+- _**Full Name:** Cấn Hoàng Anh Quân_
+- _**Date of birth:** 07-09-xxxx_
+- _**Address:** Dalat City, Vietnam_
+- _**Facebook:** [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
+- _**Twitter:** [Cấn Hoàng Anh Quân](https://twitter.com/anhquancanhoang)_
+- _**Instagram:** [junie.79](https://www.instagram.com/junie.79/)_
+- _**Youtube:** [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
+- _**Google+:** [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
 
 ## [](#junies-projects-)Junie's projects :<
 
