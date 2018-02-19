@@ -11,12 +11,12 @@
 
 ## [](#junies-projects-)Junie's projects :<
 
-1. [Landing Page](https://junie79.github.io/landing)
-1. [Love Day Counter #1](https://junie79.github.io/lovedays)
-1. [Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)
-1. [Scare](https://junie79.github.io/doama)
-1. [Confess](https://junie79.github.io/totinh)
-1. [Love Story](https://junie79.github.io/lovestory)
-1. [Facebook Tools](https://junie79.github.io/facebooktools)
-1. [Love Day Counter #2](https://junie79.github.io/love)
-1. [Happy Birthday](https://junie79.github.io/sinhnhat)
+- [Landing Page](https://junie79.github.io/landing)
+- [Love Day Counter #1](https://junie79.github.io/lovedays)
+- [Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)
+- [Scare](https://junie79.github.io/doama)
+- [Confess](https://junie79.github.io/totinh)
+- [Love Story](https://junie79.github.io/lovestory)
+- [Facebook Tools](https://junie79.github.io/facebooktools)
+- [Love Day Counter #2](https://junie79.github.io/love)
+- [Happy Birthday](https://junie79.github.io/sinhnhat)
