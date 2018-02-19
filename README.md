@@ -2,15 +2,15 @@
 
 ## Junie's projects!!!
 
-- [Landing Page](https://junie79.github.io/landing)
-- [Love Day Counter #1](https://junie79.github.io/lovedays)
-- [Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)
-- [Scare](https://junie79.github.io/doama)
-- [Confess](https://junie79.github.io/totinh)
-- [Love Story](https://junie79.github.io/lovestory)
-- [Facebook Tools](https://junie79.github.io/facebooktools)
-- [Love Day Counter #2](https://junie79.github.io/love)
-- [Happy Birthday](https://junie79.github.io/sinhnhat)
+- **[Landing Page](https://junie79.github.io/landing)**
+- **[Love Day Counter #1](https://junie79.github.io/lovedays)**
+- **[Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)**
+- **[Scare](https://junie79.github.io/doama)**
+- **[Confess](https://junie79.github.io/totinh)**
+- **[Love Story](https://junie79.github.io/lovestory)**
+- **[Facebook Tools](https://junie79.github.io/facebooktools)**
+- **[Love Day Counter #2](https://junie79.github.io/love)**
+- **[Happy Birthday](https://junie79.github.io/sinhnhat)**
 
 ## About Junie!!!
 - **Full Name: Cấn Hoàng Anh Quân**
