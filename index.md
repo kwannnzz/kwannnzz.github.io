@@ -1,4 +1,4 @@
-## Info and Contact <(")
+## [](#info-and-contact-)Info and Contact <(")
 
 - _Full Name: Cấn Hoàng Anh Quân_
 - _Date of birth: 07-09-xxxx_
@@ -9,7 +9,7 @@
 - _Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
 - _Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
 
-## Junie's projects :<
+## [](#junies-projects-)Junie's projects :<
 
 1. [Landing Page](https://junie79.github.io/landing)
 1. [Love Day Counter #1](https://junie79.github.io/lovedays)
