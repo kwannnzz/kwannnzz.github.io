@@ -3,7 +3,7 @@ plugins:
  	- jekyll-seo-tag
 description: Everything about Junie :)))
 author: junienee
-timezone: Asia/Ho_Chi_Minh
+timezone: "Asia/Ho_Chi_Minh"
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
