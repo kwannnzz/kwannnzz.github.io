@@ -1,4 +1,6 @@
 title: ♥ Junie ♥
+plugins:
+ 	- jekyll-seo-tag
 description: Everything about Junie :)))
 author: junienee
 timezone: Asia/Ho_Chi_Minh
