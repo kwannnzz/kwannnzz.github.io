@@ -1,5 +1,18 @@
 # ♥ Junie ♥
+
 **All about Junie :)**
+
+## About Junie <(")
+
+- _Full Name: Cấn Hoàng Anh Quân_
+- _Date of birth: 07-09-xxxx_
+- _Address: Dalat City, Vietnam_
+- _Facebook: [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
+- _Twitter: [Cấn Hoàng Anh Quân](http://twitter.com/anhquancanhoang)_
+- _Instagram: [junie.79](https://www.instagram.com/junie.79/)_
+- _Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
+- _Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
+
 ## Junie's projects :<
 
 - [Landing Page](https://junie79.github.io/landing)
@@ -11,13 +24,3 @@
 - [Facebook Tools](https://junie79.github.io/facebooktools)
 - [Love Day Counter #2](https://junie79.github.io/love)
 - [Happy Birthday](https://junie79.github.io/sinhnhat)
-
-## About Junie <(")
-- _Full Name: Cấn Hoàng Anh Quân_
-- _Date of birth: 07-09-xxxx_
-- _Address: Dalat City, Vietnam_
-- _Facebook: [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
-- _Twitter: [Cấn Hoàng Anh Quân](http://twitter.com/anhquancanhoang)_
-- _Instagram: [junie.79](https://www.instagram.com/junie.79/)_
-- _Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
-- _Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
