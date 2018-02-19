@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# ♥ Junie ♥
 
-You can use the [editor on GitHub](https://github.com/Junie79/junie79.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Junie's projects!!!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Landing Page](https://junie79.github.io/landing)
+- [Love Day Counter #1](https://junie79.github.io/lovedays)
+- [Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)
+- [Scare](https://junie79.github.io/doama)
+- [Confess](https://junie79.github.io/totinh)
+- [Love Story](https://junie79.github.io/lovestory)
+- [Facebook Tools](https://junie79.github.io/facebooktools)
+- [Love Day Counter #2](https://junie79.github.io/love)
+- [Happy Birthday](https://junie79.github.io/sinhnhat)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Junie79/junie79.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## About Junie!!!
+- **Full Name: Cấn Hoàng Anh Quân**
+- **Date of birth: 07-09-xxxx**
+- **Address: Dalat City, Vietnam**
+- **Facebook: [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)**
+- **Twitter: [Cấn Hoàng Anh Quân](http://twitter.com/anhquancanhoang)**
+- **Instagram: [junie.79](https://www.instagram.com/junie.79/)**
+- **Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)**
+- **Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)**
