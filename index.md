@@ -4,7 +4,7 @@
 - _Date of birth: 07-09-xxxx_
 - _Address: Dalat City, Vietnam_
 - _Facebook: [Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
-- _Twitter: [Cấn Hoàng Anh Quân](http://twitter.com/anhquancanhoang)_
+- _Twitter: [Cấn Hoàng Anh Quân](https://twitter.com/anhquancanhoang)_
 - _Instagram: [junie.79](https://www.instagram.com/junie.79/)_
 - _Youtube: [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
 - _Google+: [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
