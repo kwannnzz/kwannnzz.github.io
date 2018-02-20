@@ -1,6 +1,6 @@
 # junie.nee
 
-![](https://raw.githubusercontent.com/Junie79/junie79.github.io/master/code1.png)
+![](https://raw.githubusercontent.com/Junie79/junie79.github.io/master/code.png)
 
 # [](#info-and-contact-)Info and Contact <(")
 
