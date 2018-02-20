@@ -11,14 +11,14 @@
 
 # [](#info-and-contact-)info and contact <(")
 
-- **full name:** _Cấn Hoàng Anh Quân_
+- **full name:** _cấn hoàng anh quân_
 - **date of birth:** _07-09-xxxx_
-- **address:** _Dalat City, Vietnam_
-- **facebook:** _[Cấn Hoàng Anh Quân](https://www.facebook.com/junie.deeptry)_
-- **twitter:** _[Cấn Hoàng Anh Quân](https://twitter.com/anhquancanhoang)_
+- **address:** _dalat city, vietnam_
+- **facebook:** _[cấn hoàng anh quân](https://www.facebook.com/junie.deeptry)_
+- **twitter:** _[cấn hoàng anh quân](https://twitter.com/anhquancanhoang)_
 - **instagram:** _[junie.79](https://www.instagram.com/junie.79/)_
-- **youtube:** _[Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
-- **google+:** _[Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)_
+- **youtube:** _[anh quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)_
+- **google+:** _[anh quân (junie)](https://plus.google.com/u/0/102479544213832178614)_
 
 # [](#junies-projects-)junie's projects :<
 
