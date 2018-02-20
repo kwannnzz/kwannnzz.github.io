@@ -1,4 +1,3 @@
-# junie.nee
 
 ```c
 #include <stdio.h>
