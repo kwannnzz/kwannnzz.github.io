@@ -1,6 +1,13 @@
 # junie.nee
 
-![](https://raw.githubusercontent.com/Junie79/junie79.github.io/master/code.png)
+```c
+#include <stdio.h>
+#include <conio.h>
+  int main() {
+    printf("junie.nee ♥");
+    return 0;
+  }
+```
 
 # [](#info-and-contact-)Info and Contact <(")
 
