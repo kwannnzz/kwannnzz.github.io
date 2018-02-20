@@ -14,7 +14,7 @@
 - [Landing Page](https://junie79.github.io/landing)
 - [Love Day Counter #1](https://junie79.github.io/lovedays)
 - [Soundcloud Visualizer (Juno_okyo)](https://junie79.github.io/soundcloud)
-- [Scare](https://junie79.github.io/doama)
+- [Scare](https://junie79.github.io/daoma)
 - [Confess](https://junie79.github.io/totinh)
 - [Love Story](https://junie79.github.io/lovestory)
 - [Facebook Tools](https://junie79.github.io/facebooktools)
