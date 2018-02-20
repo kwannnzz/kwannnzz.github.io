@@ -1,12 +1,5 @@
-# junienee
-```c
-#include <stdio.h>
-#include <conio.h>
-  int main() {
-    printf("junie.nee ♥");
-    return 0;
-  }
-```
+# junie.nee
+![](https://github.com/Junie79/junie79.github.io/blob/master/code.png)
 ## [](#info-and-contact-)Info and Contact <(")
 
 - **Full Name:** _Cấn Hoàng Anh Quân_
