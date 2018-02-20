@@ -1,5 +1,5 @@
 # junie.nee
-![](https://github.com/Junie79/junie79.github.io/blob/master/code.png)
+![](https://github.com/Junie79/junie79.github.io/blob/master/code.png?raw=true)
 ## [](#info-and-contact-)Info and Contact <(")
 
 - **Full Name:** _Cấn Hoàng Anh Quân_
