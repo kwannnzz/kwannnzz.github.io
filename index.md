@@ -22,8 +22,11 @@
 # [](#junies-projects-)junie's projects :<
 
 - [landing page](https://junie79.github.io/landing)
+- [love day counter #1](https://junie79.github.io/lovedays)
 - [soundcloud visualizer (juno_okyo)](https://junie79.github.io/soundcloud)
 - [scare](https://junie79.github.io/daoma)
 - [confess](https://junie79.github.io/totinh)
+- [love story](https://junie79.github.io/lovestory)
 - [facebook tools](https://junie79.github.io/facebooktools)
+- [love day counter #2](https://junie79.github.io/love)
 - [happy birthday](https://junie79.github.io/sinhnhat)
