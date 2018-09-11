@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
   int main() {
-    printf("junie.nee ♥");
+    printf("junieeeahhh ♥");
     return 0;
   }
 ```
