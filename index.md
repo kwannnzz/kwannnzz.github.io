@@ -3,30 +3,25 @@
 #include <stdio.h>
 #include <conio.h>
   int main() {
-    printf("junieeeahhh ♥");
+    printf(".ugnnawk ♥");
     return 0;
   }
 ```
 
 # [](#info-and-contact-)info and contact <(")
 
-- **full name:** Cấn Hoàng Anh Quân
-- **date of birth:** 07-09-xxxx
-- **address:** Dalat City, Vietnam
-- **facebook:** [Cấn Hoàng Anh Quân](https://www.facebook.com/junieeeahhh)
-- **twitter:** [Cấn Hoàng Anh Quân](https://twitter.com/juniedeeptry)
-- **instagram:** [junieahhh](https://www.instagram.com/junieahhh/)
-- **youtube:** [Anh Quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)
-- **google+:** [Anh Quân (Junie)](https://plus.google.com/u/0/102479544213832178614)
+- **full name:** cấn hoàng anh quân
+- **date of birth:** 07.09.xxxx
+- **address:** dalat city, vietnam
+- **facebook:** [cấn hoàng anh quân](https://www.facebook.com/kwannnzz)
+- **twitter:** [cấn hoàng anh quân](https://twitter.com/juniedeeptry)
+- **instagram:** [kwannnzz](https://www.instagram.com/kwannnzz/)
+- **youtube:** [anh quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)
 
 # [](#junies-projects-)junie's projects :<
 
+- [beentogether](https://junie79.github.io/beentogether)
 - [landing page](https://junie79.github.io/landing)
-- [love day counter #1](https://junie79.github.io/lovedays)
 - [soundcloud visualizer (juno_okyo)](https://junie79.github.io/soundcloud)
-- [scare](https://junie79.github.io/daoma)
 - [confess](https://junie79.github.io/totinh)
-- [love story](https://junie79.github.io/lovestory)
 - [facebook tools](https://junie79.github.io/facebooktools)
-- [love day counter #2](https://junie79.github.io/love)
-- [happy birthday](https://junie79.github.io/sinhnhat)
