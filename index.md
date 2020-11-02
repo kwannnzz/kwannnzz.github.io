@@ -1,9 +1,8 @@
 
-```c
-#include <stdio.h>
-#include <conio.h>
+```c++
+#include <iostream>
   int main() {
-    printf(".ugnnawk ♥");
+    cout << "kwannnzz";
     return 0;
   }
 ```
@@ -14,14 +13,8 @@
 - **date of birth:** 07.09.xxxx
 - **address:** dalat city, vietnam
 - **facebook:** [cấn hoàng anh quân](https://www.facebook.com/kwannnzz)
-- **twitter:** [cấn hoàng anh quân](https://twitter.com/juniedeeptry)
-- **instagram:** [kwannnzz](https://www.instagram.com/kwannnzz/)
-- **youtube:** [anh quân](https://www.youtube.com/channel%2FUCMvsAzrhy7_17nuQAPp8_nA%2F)
+- **phone number:** [+84392557927](tel:84392557927)
+- **email:** [kwannnzz7129@gmail.com](mailto:kwannnzz7129@gmail.com)
+- **instagram:** [kwannnzz](https://www.instagram.com/kwannnzz)
 
-# [](#junies-projects-)junie's projects :<
-
-- [beentogether](https://junie79.github.io/beentogether)
-- [landing page](https://junie79.github.io/landing)
-- [soundcloud visualizer (juno_okyo)](https://junie79.github.io/soundcloud)
-- [confess](https://junie79.github.io/totinh)
-- [facebook tools](https://junie79.github.io/facebooktools)
+- [x] Be successful...
