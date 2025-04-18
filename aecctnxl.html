@@ -3,8 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WHY DID YOU OPEN THIS</title>
+  <title>meow meow</title>
   <style>
+    /* Thêm style cho thông báo mobile */
+    #mobile-message {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 50px;
+      z-index: 99999;
+    }
+    
     body {
       margin: 0;
       padding: 0;
@@ -97,16 +114,33 @@
   </style>
 </head>
 <body>
+  <!-- Thêm thông báo cho mobile -->
+  <div id="mobile-message">
+    <h1>THIS WEBSITE IS NOT AVAILABLE ON MOBILE DEVICES</h1>
+    <p>Please access from a desktop computer.</p>
+  </div>
+  
   <div id="custom-cursor"></div>
   <div id="container"></div>
   <button id="escape-button">x</button>
   <div id="audio-container"></div>
 
   <script>
-    // Start everything immediately without warning
-    document.addEventListener('DOMContentLoaded', function() {
-      startEffects();
-    });
+    // Kiểm tra thiết bị di động trước khi bắt đầu
+    function isMobileDevice() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+    
+    if (isMobileDevice()) {
+      document.getElementById('mobile-message').style.display = 'block';
+      // Dừng mọi thứ lại nếu là mobile
+      throw new Error("Mobile access blocked");
+    } else {
+      // Start everything immediately without warning
+      document.addEventListener('DOMContentLoaded', function() {
+        startEffects();
+      });
+    }
 
     function startEffects() {
       const container = document.getElementById('container');
