@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheets Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --card-bg: rgba(255, 255, 255, 0.85);
+            --text-main: #0f172a;
+            --text-sub: #64748b;
+            --border: rgba(226, 232, 240, 0.8);
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+            --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.06), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            background-image: 
+                radial-gradient(at 15% 15%, rgba(99, 102, 241, 0.08) 0px, transparent 50%),
+                radial-gradient(at 85% 20%, rgba(236, 72, 153, 0.06) 0px, transparent 50%),
+                radial-gradient(at 50% 85%, rgba(59, 130, 246, 0.06) 0px, transparent 50%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 640px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #4f46e5;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        p.subtitle {
+            font-size: 15px;
+            color: var(--text-sub);
+        }
+
+        .grid {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .card:hover {
+            transform: translateY(-3px) scale(1.005);
+            box-shadow: var(--shadow-hover);
+            border-color: rgba(99, 102, 241, 0.3);
+            background: #ffffff;
+        }
+
+        .card-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .icon-box {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+            background: #f1f5f9;
+        }
+
+        .icon-blue { background: #e0f2fe; color: #0284c7; }
+        .icon-purple { background: #f3e8ff; color: #9333ea; }
+        .icon-amber { background: #fef3c7; color: #d97706; }
+        .icon-emerald { background: #dcfce7; color: #059669; }
+
+        .card-info h2 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 2px;
+        }
+
+        .card-info p {
+            font-size: 13px;
+            color: var(--text-sub);
+        }
+
+        .arrow-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+            transition: all 0.2s ease;
+        }
+
+        .card:hover .arrow-btn {
+            background: #4f46e5;
+            color: #ffffff;
+            transform: translateX(4px);
+        }
+
+        footer {
+            margin-top: 36px;
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="tag">
+                <span>✦</span> Quick Reference
+            </div>
+            <h1>Tax Compliance</h1>
+            <p class="subtitle">Tổng hợp tài liệu tra cứu nhanh các quy định thuế</p>
+        </header>
+
+        <main class="grid">
+            <a href="cheatsheet-cit.html" class="card">
+                <div class="card-left">
+                    <div class="icon-box icon-blue">📊</div>
+                    <div class="card-info">
+                        <h2>Thuế Thu Nhập Doanh Nghiệp</h2>
+                    </div>
+                </div>
+                <div class="arrow-btn">→</div>
+            </a>
+
+            <a href="cheatsheet-vat.html" class="card">
+                <div class="card-left">
+                    <div class="icon-box icon-purple">🏷️</div>
+                    <div class="card-info">
+                        <h2>Thuế Giá Trị Gia Tăng</h2>
+                    </div>
+                </div>
+                <div class="arrow-btn">→</div>
+            </a>
+
+            <a href="cheatsheet-invoices.html" class="card">
+                <div class="card-left">
+                    <div class="icon-box icon-amber">🧾</div>
+                    <div class="card-info">
+                        <h2>Hóa Đơn & Chứng Từ</h2>
+                    </div>
+                </div>
+                <div class="arrow-btn">→</div>
+            </a>
+
+            <a href="cheatsheet-tax-admin.html" class="card">
+                <div class="card-left">
+                    <div class="icon-box icon-emerald">⚖️</div>
+                    <div class="card-info">
+                        <h2>Quản Lý Thuế</h2>
+                    </div>
+                </div>
+                <div class="arrow-btn">→</div>
+            </a>
+        </main>
+
+        <footer>
+            kwannnzz.github.io
+        </footer>
+    </div>
+
+</body>
+</html>
