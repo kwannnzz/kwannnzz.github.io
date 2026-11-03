@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
     <style>
         :root {
             --primary: #00338D;
@@ -327,7 +328,6 @@
             text-decoration: none;
             box-shadow: 0 10px 24px -6px rgba(0, 51, 141, 0.45);
             transition: transform 0.3s var(--ease), box-shadow 0.3s ease, background-position 0.6s ease;
-            margin-bottom: 34px;
             overflow: hidden;
         }
 
@@ -363,6 +363,177 @@
         .vcard-btn svg {
             width: 16px;
             height: 16px;
+        }
+
+
+        /* Action row */
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 34px;
+        }
+
+        .qr-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 18px;
+            border-radius: 14px;
+            border: 1px solid var(--line);
+            background: var(--glass-strong);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--primary);
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 6px 18px -8px rgba(0, 51, 141, 0.25);
+            transition: transform 0.3s var(--ease), box-shadow 0.3s ease;
+        }
+
+        .qr-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px -10px rgba(0, 51, 141, 0.35);
+        }
+
+        .qr-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .icon-zalo {
+            background: #e5f0ff;
+            color: #0068FF;
+            font-weight: 800;
+            font-size: 11px;
+            letter-spacing: -0.02em;
+        }
+
+        /* QR modal */
+        .modal {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            display: grid;
+            place-items: center;
+            padding: 20px;
+            background: rgba(12, 35, 60, 0.45);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .modal.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-card {
+            position: relative;
+            width: 100%;
+            max-width: 320px;
+            background: #fff;
+            border-radius: 24px;
+            padding: 28px 24px 22px;
+            text-align: center;
+            box-shadow: 0 30px 60px -20px rgba(12, 35, 60, 0.45);
+            transform: translateY(16px) scale(0.96);
+            transition: transform 0.4s var(--ease);
+        }
+
+        .modal.open .modal-card {
+            transform: none;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 0;
+            background: #f1f5f9;
+            color: var(--text-sub);
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+        }
+
+        .modal-close svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .modal-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .modal-sub {
+            font-size: 12.5px;
+            color: var(--text-sub);
+            margin-top: 4px;
+        }
+
+        .qr-frame {
+            position: relative;
+            margin: 18px auto 0;
+            width: 220px;
+            height: 220px;
+            padding: 12px;
+            border-radius: 18px;
+            background: #fff;
+            border: 1px solid var(--line);
+            overflow: hidden;
+        }
+
+        #qr-code {
+            width: 100%;
+            height: 100%;
+        }
+
+        .qr-frame svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .qr-frame::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 40px;
+            top: -40px;
+            background: linear-gradient(180deg, transparent, rgba(0, 184, 245, 0.25), transparent);
+            animation: scan 2.6s ease-in-out infinite;
+        }
+
+        @keyframes scan {
+            0% {
+                top: -40px;
+            }
+
+            100% {
+                top: 100%;
+            }
+        }
+
+        .qr-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 46px;
+            height: 46px;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            border: 3px solid #fff;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
         /* Sections */
@@ -722,10 +893,16 @@
             </div>
         </header>
 
-        <a href="index_files/vcard.vcf" class="vcard-btn reveal" id="vcard">
-            <i data-feather="user-plus"></i>
-            <span>Add to Contacts</span>
-        </a>
+        <div class="actions reveal">
+            <a href="index_files/vcard.vcf" class="vcard-btn" id="vcard">
+                <i data-feather="user-plus"></i>
+                <span>Add to Contacts</span>
+            </a>
+            <button type="button" class="qr-btn" id="qr-open" aria-label="Show QR code">
+                <i data-feather="maximize"></i>
+                <span>QR</span>
+            </button>
+        </div>
 
         <section class="section">
             <div class="section-title reveal">Work</div>
@@ -754,6 +931,19 @@
                     <div class="card-actions">
                         <span class="btn-icon copy" role="button" tabindex="0" data-copy="+84392557927"
                             aria-label="Copy phone number"><i data-feather="copy"></i></span>
+                        <span class="btn-icon arrow"><i data-feather="arrow-up-right"></i></span>
+                    </div>
+                </a>
+                <a href="https://zalo.me/84392557927" target="_blank" rel="noopener noreferrer"
+                    class="link-card reveal">
+                    <div class="link-left">
+                        <div class="icon-box icon-zalo">Zalo</div>
+                        <div class="card-titles">
+                            <span class="card-title">Zalo</span>
+                            <span class="card-subtitle">+84 392 557 927</span>
+                        </div>
+                    </div>
+                    <div class="card-actions">
                         <span class="btn-icon arrow"><i data-feather="arrow-up-right"></i></span>
                     </div>
                 </a>
@@ -809,6 +999,19 @@
         <footer class="reveal">
             <a href="https://kwannnzz.github.io">kwannnzz.github.io</a>
         </footer>
+    </div>
+
+    <div class="modal" id="qr-modal" role="dialog" aria-modal="true" aria-labelledby="qr-title">
+        <div class="modal-card">
+            <button type="button" class="modal-close" id="qr-close" aria-label="Close"><i data-feather="x"></i></button>
+            <div class="modal-title" id="qr-title">Scan to save contact</div>
+            <div class="modal-sub">Point your phone camera at the code</div>
+            <div class="qr-frame">
+                <div id="qr-code"></div>
+                <img src="index_files/avatar.jpeg" alt="" class="qr-logo"
+                    onerror="this.src='https://github.com/kwannnzz.png'">
+            </div>
+        </div>
     </div>
 
     <div class="toast" id="toast"><i data-feather="check-circle"></i><span id="toast-text">Copied</span></div>
@@ -885,38 +1088,101 @@
             } catch (_) { }
         }
 
+        // Contact details (used for QR code and contact file)
+        const CONTACT = {
+            first: 'Quan',
+            middle: 'Hoang Anh',
+            last: 'Can',
+            full: 'Quan Can Hoang Anh',
+            org: 'KPMG Vietnam',
+            phone: '+84392557927',
+            email: 'quancan.7904@gmail.com',
+            url: 'https://kwannnzz.github.io'
+        };
+
+        function buildVCard(c) {
+            return [
+                'BEGIN:VCARD',
+                'VERSION:3.0',
+                `N:${c.last};${c.first};${c.middle};;`,
+                `FN:${c.full}`,
+                `ORG:${c.org}`,
+                `TEL;TYPE=CELL:${c.phone}`,
+                `EMAIL;TYPE=INTERNET:${c.email}`,
+                `URL:${c.url}`,
+                'END:VCARD'
+            ].join('\r\n');
+        }
+
         // Add to contacts
         (function () {
             const btn = document.getElementById('vcard');
             const ua = navigator.userAgent;
             const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-            const isMobile = isIOS || /Android/i.test(ua);
+            const isAndroid = /Android/i.test(ua);
+            const fileName = 'Quan-Can-Hoang-Anh.vcf';
+
+            function saveBlob(text) {
+                const blob = new Blob([text], { type: 'text/x-vcard;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                setTimeout(() => URL.revokeObjectURL(url), 1500);
+            }
+
             btn.addEventListener('click', async e => {
                 if (isIOS) return;
                 e.preventDefault();
+                let text;
                 try {
-                    const res = await fetch(btn.href, { cache: 'no-store' });
-                    const text = await res.text();
-                    const file = new File([text], 'Quan Can Hoang Anh.vcf', { type: 'text/vcard' });
-                    if (isMobile && navigator.canShare && navigator.canShare({ files: [file] })) {
-                        await navigator.share({ files: [file], title: 'Quan Can Hoang Anh' });
-                        return;
-                    }
-                    const url = URL.createObjectURL(file);
-                    const a = document.createElement('a');
-                    a.href = url;
-                    a.download = file.name;
-                    document.body.appendChild(a);
-                    a.click();
-                    a.remove();
-                    setTimeout(() => URL.revokeObjectURL(url), 1000);
-                    showToast(isMobile ? 'Open the file to save contact' : 'Contact card downloaded');
-                } catch (err) {
-                    if (err && err.name === 'AbortError') return;
-                    window.location.href = btn.href;
+                    const res = await fetch(btn.getAttribute('href'), { cache: 'no-store' });
+                    if (!res.ok) throw new Error();
+                    text = await res.text();
+                } catch (_) {
+                    text = buildVCard(CONTACT);
                 }
+                saveBlob(text);
+                showToast(isAndroid ? 'Tap the downloaded file to save' : 'Contact card downloaded');
             });
         })();
+
+        // QR code
+        (function () {
+            const modal = document.getElementById('qr-modal');
+            const holder = document.getElementById('qr-code');
+            let rendered = false;
+
+            function render() {
+                if (rendered || typeof qrcode === 'undefined') return;
+                const qr = qrcode(0, 'H');
+                qr.addData(buildVCard(CONTACT));
+                qr.make();
+                holder.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
+                const path = holder.querySelector('path');
+                if (path) path.setAttribute('fill', '#00338D');
+                rendered = true;
+            }
+
+            function open() {
+                render();
+                modal.classList.add('open');
+                document.getElementById('qr-close').focus();
+            }
+
+            function close() {
+                modal.classList.remove('open');
+            }
+
+            document.getElementById('qr-open').addEventListener('click', open);
+            document.getElementById('qr-close').addEventListener('click', close);
+            modal.addEventListener('click', e => { if (e.target === modal) close(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+        })();
+
         document.querySelectorAll('.copy').forEach(btn => {
             btn.addEventListener('click', e => { e.preventDefault(); e.stopPropagation(); copyValue(btn); });
             btn.addEventListener('keydown', e => {
@@ -990,5 +1256,4 @@
         })();
     </script>
 </body>
-
 </html>
